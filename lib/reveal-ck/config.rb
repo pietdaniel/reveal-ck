@@ -36,8 +36,8 @@ module RevealCK
     def revealjs_config_defaults
       {
         'revealjs_config' => {
-          'controls' => true,
-          'progress' => true,
+          'controls' => false,
+          'progress' => false,
           'history' => true,
           'center' => true
         }
